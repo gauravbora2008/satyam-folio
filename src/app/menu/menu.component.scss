@@ -1,0 +1,66 @@
+.logo {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+}
+
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  z-index: 9;
+  max-width: 100%;
+  padding: 0 25px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #000;
+  &.home {
+    background: transparent;
+  }
+}
+
+.projects-container {
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.projects__wrapper {
+  position: relative;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 300;
+
+    li {
+      margin-right: 15px;
+      cursor: pointer;
+    }
+
+    li a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+.projects_sub-menu {
+  color: white;
+  position: absolute;
+  margin: 2px 0 0;
+  padding-left: 0;
+  li {
+    font-size: 15px;
+  }
+}
+
+.is-active {
+  font-weight: bold;
+}

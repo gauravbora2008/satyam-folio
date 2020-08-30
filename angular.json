@@ -30,7 +30,12 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/fullpage.scrollHorizontally.min.js",
+              {
+                "input": "node_modules/document-register-element/build/document-register-element.js"
+              }
+            ]
           },
           "configurations": {
             "production": {
@@ -40,6 +45,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
+              "baseHref": "./satyam/",
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
@@ -124,6 +130,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "satyam"
 }

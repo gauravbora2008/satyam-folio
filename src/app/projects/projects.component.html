@@ -1,0 +1,11 @@
+<div>
+    <div class="main-container" appHorizontalScroll>
+      <!-- <p *ngFor="let num of number">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium incidunt quas ullam maiores vero consequuntur, velit quis aliquid architecto quibusdam. Recusandae ratione saepe quis sed autem veniam commodi asperiores nostrum!
+      </p> -->
+      <div *ngFor="let image of collageImages" [class]="image.className + ' photo'">
+        <img [src]="image.path" alt="">
+      </div>
+    </div>
+  </div>
+  

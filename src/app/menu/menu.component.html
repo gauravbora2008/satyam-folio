@@ -1,0 +1,34 @@
+<div
+  class="logo"
+  routerLink="/"
+  routerLinkActive="is-active"
+  [routerLinkActiveOptions]="{ exact: true }"
+>
+  Satyam Bora
+</div>
+
+<div class="projects__wrapper">
+  <ul class="projects_main-menu">
+    <!-- <li>Home</li> -->
+    <li (click)="showProjects = !showProjects">
+      <a>Projects</a>
+      <ul class="projects_sub-menu" *ngIf="showProjects">
+        <li routerLink="/projects">Almost There</li>
+      </ul>
+    </li>
+    <li>
+      <a
+        routerLink="bio"
+        routerLinkActive="is-active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Bio</a
+      >
+    </li>
+    <li><a routerLink="news">News</a></li>
+    <li><a routerLink="journal">Journal</a></li>
+    <li><a routerLink="contact">Contact</a></li>
+    <li><a routerLink="/">Instagram</a></li>
+  </ul>
+
+  <div class="projects-menu"></div>
+</div>

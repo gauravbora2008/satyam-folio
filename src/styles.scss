@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+// @import url(~fullpage.js/dist/fullpage.min.css);
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+}
+
+// app-root {
+//   display: block;
+//   background: #000;
+//   color: #fff;
+//   overflow-y: hidden;
+//   max-height: 100vh;
+// }
+
+app-horizontal-scroll {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  background: green;
+}
+
+app-root {
+  // overflow: hidden;
+  display: block;
+  position: relative;
+}

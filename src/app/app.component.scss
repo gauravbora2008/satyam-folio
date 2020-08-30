@@ -1,0 +1,57 @@
+// app-home {
+//   margin: 0;
+//   padding: 0;
+//   width: 100vw;
+//   height: 100vh;
+// }
+
+// .fullpage-horizontal-scroll {
+//   width: 100vw;
+//   height: 100vh;
+//   overflow-y: auto;
+//   overflow-x: hidden;
+//   background: red;
+//   z-index: 1;
+// }
+
+// /* Hide scrollbar for Chrome, Safari and Opera */
+// .fullpage-horizontal-scroll::-webkit-scrollbar {
+//   display: none;
+
+//   background: #000;
+//   color: #fff;
+// }
+
+// /* Hide scrollbar for IE, Edge and Firefox */
+// .fullpage-horizontal-scroll {
+//   -ms-overflow-style: none; /* IE and Edge */
+//   scrollbar-width: none; /* Firefox */
+// }
+
+// .horizontal-scroll-wrapper > div {
+//   width: 100px;
+//   height: 100px;
+//   max-height: 100vw;
+//   background-color: blue;
+//   //   transform: rotate(90deg);
+//   //   transform-origin: right top;
+// }
+
+// .main-container {
+//   width: 100%;
+//   height: auto;
+// }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+
+  background: #000;
+  color: #fff;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
